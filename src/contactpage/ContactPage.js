@@ -93,7 +93,7 @@ export function ContactPage() {
                             <InputCheckbox type="checkbox"></InputCheckbox>
                             Accept privacy policy
                             <span>
-                              <SubmitButton value="send Button"></SubmitButton>
+                              <SubmitButton value="send Request"></SubmitButton>
                             </span>
                           </AcceptAgrementBox>
                         </span>

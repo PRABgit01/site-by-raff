@@ -16,11 +16,10 @@ export const ContactWrapper = styled.div`
   width: 100%;
   max-width: 1128px;
   padding: 0 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 
-  @media (max-width:991px) {
-   padding:0; 
+  @media (max-width: 991px) {
+    padding: 0;
   }
 `;
 
@@ -28,10 +27,10 @@ export const InnerContactWrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin:0px -15px;
+  margin: 0px -15px;
   padding: 0px 126px 0px;
 
-  @media (max-width:991px) {
+  @media (max-width: 991px) {
     padding: 0px 15px 0px;
     margin: 0;
   }
@@ -48,9 +47,9 @@ export const ContactTitle = styled.div`
   top: 100px;
   color: #1c1b1c;
 
-  @media (max-width:991px) {
-   top: 77px;
-    font-size: 48px; 
+  @media (max-width: 991px) {
+    top: 77px;
+    font-size: 48px;
   }
 `;
 
@@ -65,20 +64,20 @@ export const Subtitle = styled.div`
   color: #e8e3e8;
   letter-spacing: 6px;
 
-  @media (max-width: 991px) {
-   font-size: 27px;
+  @media(max-width: 991px) {
+    font-size: 27px;
     font-weight: 900;
-    line-height: 31px; 
+    line-height: 31px;
   }
 `;
 
 export const ContactFormPage = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin:0px -15px;
+  margin: 0px -15px;
 
-  @media (max-width:991px) {
-   margin :0 ;
+  @media (max-width: 991px) {
+    margin: 0;
   }
 `;
 
@@ -92,13 +91,13 @@ export const ContactFormWrapper = styled.p`
   font-family: Graphik-Light;
   font-size: 24px;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1;
   text-align: center;
   color: #a2a2a2;
   margin: 30px 0 70px;
 
-  @media (max-width:991px) {
-       font-size: 13px; 
+  @media (max-width: 991px) {
+    font-size: 13px;
   }
 `;
 
@@ -109,13 +108,13 @@ export const FormDetailsPage = styled.p`
 export const ContactTextPage = styled.span`
   font-family: Graphik, sans-serif;
   font-size: 26px;
-  line-height: 2.5;
+  line-height: 2;
   text-align: center;
   color: #e8e3e8;
   margin: 0 7px;
 
-  @media (max-width:991px) {
-   font-size :15px ;
+  @media (max-width: 991px) {
+    font-size: 15px;
   }
 `;
 
@@ -144,7 +143,7 @@ export const NameInput = styled(InputSection)`
   max-width: 500px;
 
   @media (max-width: 991px) {
-  max-width: 300px;
+    max-width: 300px;
   }
 `;
 
@@ -164,8 +163,7 @@ export const EmailInput = styled(InputSection)`
   }
 
   @media (max-width: 991px) {
-  max-width: 289px;
-    
+    max-width: 289px;
   }
 `;
 
@@ -174,8 +172,8 @@ export const ExtraInformation = styled(InputSection)`
   max-width: 837px;
   text-align: left;
 
-  @media (max-width:991px) {
-   max-width:336px; 
+  @media (max-width: 991px) {
+    max-width: 336px;
   }
 `;
 

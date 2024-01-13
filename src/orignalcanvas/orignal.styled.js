@@ -68,7 +68,7 @@ export const Subpara = styled.div`
   color: #86847bc9;
   position: relative;
   right: 30px;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
 
   @media (max-width: 991px) {
     font-size: 30px;
@@ -126,7 +126,7 @@ export const TextAlignProduct = styled.div`
   text-align: center;
 `;
 
-export const Producimage = styled.div`
+export const Productimage = styled.div`
   position: absolute;
   top: -60px;
   left: -30px;
@@ -143,4 +143,3 @@ export const Product = styled.img`
   max-width: 247px;
   min-width: 247px;
 `;
-

@@ -23,7 +23,7 @@ export const NaviagationDesign = styled.li`
     content: "";
     display: inline-block;
     height: 8px;
-    padding-top: 20px;
+    padding: 20px 0 0 0;
   }
 `;
 

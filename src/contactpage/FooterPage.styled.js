@@ -20,8 +20,7 @@ export const FooterROw = styled.div`
   border-bottom: 1px solid #6d6d6d;
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: 0px -15px;
 
   @media (max-width: 991px) {
     flex-direction: column;
@@ -49,18 +48,19 @@ export const FootLeftBox = styled.div`
   font-weight: 300;
   line-height: 2.5;
   text-align: right;
-  margin-top: 50px;
+  margin: 50px 0 0 0;
   color: #d5d5d5;
 `;
 
 export const FootrLogo = styled.div`
   display: inline-block;
   vertical-align: middle;
-  margin-bottom: 15px;
+  margin: 0 0 0 15px;
 `;
 
 export const FooterImage = styled.img`
   max-width: 190px;
+  
   @media (max-width: 991px) {
     padding: 0px 98px;
   }
@@ -78,7 +78,7 @@ export const AcceptAgrementBox = styled.div`
 `;
 
 export const InputCheckbox = styled.input`
-  margin-right: 22px;
+  margin: 0 22px 0 0;
   align-items: left;
 
   &::before {
@@ -122,7 +122,7 @@ export const LinkPArt = styled.a`
   line-height: 2;
   text-align: left;
   color: #d5d5d5;
-  margin-right: 34px;
+  margin: 0 34px 0 0;
 `;
 
 export const HeadForm = styled.form``;
@@ -151,7 +151,7 @@ export const SubmitButton = styled.input`
   border: 1px solid #fff;
   color: #fff;
   border-radius: 15px;
-  margin-top: 35px;
+  margin: 35px 0 0 0;
   padding: 18px 45px;
   text-transform: uppercase;
 `;

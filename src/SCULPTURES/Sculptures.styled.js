@@ -50,8 +50,8 @@ export const SubTitle = styled.div`
   letter-spacing: 19px;
   text-align: left;
   text-transform: uppercase;
-  padding-left: 21px;
-  margin-bottom: 10px;
+  padding: 0 0 0 21px;
+  margin: 0 0 10px 0;
   color: #4b4b4b;
   z-index: 1;
 
@@ -116,7 +116,7 @@ export const SculptureProducInfoBox = styled.div`
   text-align: left;
   padding: 22px 20px 22px 25px;
   position: relative;
-  margin-top: 240px;
+  margin: 240px 0 0 0;
 `;
 
 export const SculptureTitle = styled.a`

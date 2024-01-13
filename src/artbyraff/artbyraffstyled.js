@@ -52,7 +52,6 @@ export const ArtbyRaffSubPArt = styled.div`
   line-height: 1;
   letter-spacing: 19px;
   text-transform: uppercase;
-  margin-bottom: 0;
   position: relative;
   left: 10px;
   color: #4b4b4b;
@@ -83,8 +82,8 @@ export const ArtByRaffInsideBox = styled.div`
 export const IntroDescription = styled.div`
   width: 100%;
   max-width: 967px;
-  margin-top: 80px;
-  padding-left: 67px;
+  margin: 80px 0 0 0;
+  padding: 0 0 0 67px;
   font-family: Graphik-Light;
   font-size: 22px;
   font-weight: 300;
@@ -94,7 +93,7 @@ export const IntroDescription = styled.div`
   border-left: 5px solid #d8cf91;
 
   @media (max-width: 991px) {
-    margin-top: 40px;
+    margin: 40px 0 0 0;
     font-size: 15px;
     padding: 0px 7px 0px;
   }

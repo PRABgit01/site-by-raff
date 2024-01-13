@@ -53,7 +53,7 @@ const Customized = () => {
           </CustomizeHeadingWrapper>
           <Slider {...settings}>
             {CustomizeData.map((c, index) => (
-              <CustomizeCustomSlider key={c.Cname}>
+              <CustomizeCustomSlider key={c.CustomizationHeading}>
                 <CustomizedSliderWrapper>
                   <CostomizedSlider isActive={index === centerIndex}>
                     <CostomizedSliderImage
@@ -61,11 +61,13 @@ const Customized = () => {
                         opacity: ImageOpacity(centerIndex, index),
                       }}
                     >
-                      <img src={c.Cimg} alt="" />
+                      <img src={c.CustomizationImg} alt="" />
                     </CostomizedSliderImage>
                     {index === centerIndex && (
                       <CostomizedSliderNameWrapper>
-                        <CostomizedSliderName>{c.Cname}</CostomizedSliderName>
+                        <CostomizedSliderName>
+                          {c.CustomizationHeading}
+                        </CostomizedSliderName>
                       </CostomizedSliderNameWrapper>
                     )}
                   </CostomizedSlider>

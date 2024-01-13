@@ -25,7 +25,7 @@ export const TextAlignProduct = styled.div`
   text-align: center;
 `;
 
-export const Producimage = styled.div`
+export const Productimage = styled.div`
   position: absolute;
   top: -60px;
   left: -30px;
@@ -43,13 +43,13 @@ export const Product = styled.img`
   min-width: 247px;
 `;
 
-export const Producname = styled.div``;
+export const ProduCustomizationHeading = styled.div``;
 
 export const ProductInfo = styled.div`
   text-align: left;
   padding: 22px 20px 22px 25px;
   position: relative;
-  margin-top: 250px;
+  margin: 250px 0 0 0;
 `;
 
 export const ProductTitle = styled.div``;

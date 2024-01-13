@@ -8,9 +8,6 @@ export const StyledLogoSection = styled.div`
   position: absolute;
   z-index: 2;
   width: 100%;
-  @media (max-width: 991px) {
-    /* max-width: 274px;  */
-  }
 `;
 export const StyledLogoContainer = styled.nav`
   width: 100%;

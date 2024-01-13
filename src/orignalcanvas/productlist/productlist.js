@@ -1,7 +1,7 @@
 import {
   Unorderlist,
   ListProduct,
-  Producimage,
+  Productimage,
   Product,
   TextAlignProduct,
 } from "../orignal.styled";
@@ -18,11 +18,11 @@ import {
 export function ProductList() {
   const ProductMenu = ProductListsData.map((output) => (
     <ListProduct>
-      <Producimage>
+      <Productimage>
         <a>
           <Product src={output.url}></Product>
         </a>
-      </Producimage>
+      </Productimage>
       <TextAlignProduct>
         <ProductInfo>
           <ProductTitle>
